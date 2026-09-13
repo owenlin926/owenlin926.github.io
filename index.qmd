@@ -1,6 +1,15 @@
 ---
-title: "Owen Lin's Website"
+title: "Owen Lin"
+about:
+    template: jolla
+    image: images/websitepic.jpg
 ---
+
+"I am a UBC Sauder BCom alumni joining the MDS program after working for 2 years as a Policy Analyst in the BC Government. Throughout my time as a Policy Analyst and during co-ops at Sauder, TRIUMF, Canucks Sports and Entertainment, and the Vancouver Fraser Port Authority, I always gravitated toward questions that required data to solve. I am here to specialize and make that data-driven problem solving a career."
+
+
+
+
 
 This is a Quarto website.
 

@@ -1,16 +1,51 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Owen Lin’s Website",
+    "objectID": "posts/first-weeks/index.html",
+    "href": "posts/first-weeks/index.html",
+    "title": "My first weeks in MDS",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "MDS here we go.\n\n\nThis program is a whirlwind.\nWithout exageration, these past 2 weeks have already been the biggest academic challenge I’ve faced in entire my life. I’m commuting for 90 minutes to be on campus from 8:00am to 4:00pm and working all throughout on any of my 4 lab assignments due by the end of the week. And our exams are already around the corner. In week 3.\nAt the same time, I feel like I have finally found my people. All of us are data nerds speaking the same language and it’s why we’re here. It has me so excited for what’s to come during the rest of this program."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 13, 2026\n\n\nOwen Lin\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Before data science, I joined Canucks Sports and Entertainment as Warehouse Intern helping to feed 18,000 screaming fans. The level of activity on a gameday was immense, and it wasn’t uncommon to generate 6 figures of revenue within a 20 minute intermission. Knowing how to study and manipulate the data flowing from Rogers Arena would have opened up a whole world of possibility. I’m studying in the MDS program so I don’t have to miss those oppertunities ever again."
+  },
+  {
+    "objectID": "about.html#why-im-here",
+    "href": "about.html#why-im-here",
+    "title": "About",
+    "section": "",
+    "text": "Before data science, I joined Canucks Sports and Entertainment as Warehouse Intern helping to feed 18,000 screaming fans. The level of activity on a gameday was immense, and it wasn’t uncommon to generate 6 figures of revenue within a 20 minute intermission. Knowing how to study and manipulate the data flowing from Rogers Arena would have opened up a whole world of possibility. I’m studying in the MDS program so I don’t have to miss those oppertunities ever again."
+  },
+  {
+    "objectID": "about.html#where-i-hope-to-go",
+    "href": "about.html#where-i-hope-to-go",
+    "title": "About",
+    "section": "Where I Hope to Go",
+    "text": "Where I Hope to Go\nWith the MDS program, I’m hoping to develop my skills in data science to complement the operational knowledge and policy experience I developed from my Sauder BCom and work in the BC Government. My goal is to leverage data science to improve public services. Whether that’s by improving transportation infrastructure, modelling economic growth, or optimizing emergency response times, I’ll go where I can make an impact by using data to make life better for the people who rely on those services."
+  },
+  {
+    "objectID": "about.html#what-i-do-outside-of-school",
+    "href": "about.html#what-i-do-outside-of-school",
+    "title": "About",
+    "section": "What I do Outside of School",
+    "text": "What I do Outside of School\nWhen I have the time, I like to cook a batch of food big enough to feed our household for a week. It’s a good bet to find a family sized portion of japchae or Korean soybean paste soup ready to go in our fridge at any given time."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Owen Lin",
+    "section": "",
+    "text": "“I am a UBC Sauder BCom alumni joining the MDS program after working for 2 years as a Policy Analyst in the BC Government. Throughout my time as a Policy Analyst and during co-ops at Sauder, TRIUMF, Canucks Sports and Entertainment, and the Vancouver Fraser Port Authority, I always gravitated toward questions that required data to solve. I am here to specialize and make that data-driven problem solving a career.”\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

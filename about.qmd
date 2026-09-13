@@ -1,5 +1,14 @@
 ---
 title: "About"
 ---
+## Why I'm Here
 
-About this site
+Before data science, I joined Canucks Sports and Entertainment as Warehouse Intern helping to feed 18,000 screaming fans. The level of activity on a gameday was immense, and it wasn't uncommon to generate 6 figures of revenue within a 20 minute intermission. Knowing how to study and manipulate the data flowing from Rogers Arena would have opened up a whole world of possibility. I'm studying in the MDS program so I don't have to miss those oppertunities ever again.
+
+## Where I Hope to Go
+
+With the MDS program, I'm hoping to develop my skills in data science to complement the operational knowledge and policy experience I developed from my Sauder BCom and work in the BC Government. My goal is to leverage data science to improve public services. Whether that's by improving transportation infrastructure, modelling economic growth, or optimizing emergency response times, I'll go where I can make an impact by using data to make life better for the people who rely on those services.
+
+## What I do Outside of School
+
+When I have the time, I like to cook a batch of food big enough to feed our household for a week. It's a good bet to find a family sized portion of japchae or Korean soybean paste soup ready to go in our fridge at any given time.
