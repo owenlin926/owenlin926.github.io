@@ -3,7 +3,7 @@ title: "About"
 ---
 ## Why I'm Here
 
-Before data science, I joined Canucks Sports and Entertainment as Warehouse Intern helping to feed 18,000 screaming fans. The level of activity on a gameday was immense, and it wasn't uncommon to generate 6 figures of revenue within a 20 minute intermission. Knowing how to study and manipulate the data flowing from Rogers Arena would have opened up a whole world of possibility. I'm studying in the MDS program so I don't have to miss those oppertunities ever again.
+Before data science, I joined Canucks Sports and Entertainment as Warehouse Intern helping to feed 18,000 screaming fans. The level of activity on a gameday was immense, and it wasn't uncommon to generate 6 figures of revenue within a 20 minute intermission. Knowing how to study and manipulate the data flowing from Rogers Arena would have opened up a whole world of possibility. I'm studying in the MDS program so I don't have to miss those opportunities ever again.
 
 ## Where I Hope to Go
 
