@@ -1,0 +1,48 @@
+---
+title: "Horsepower and Fuel Efficiency by Cylinder Count"
+author: Owen Lin
+date: "2026-09-23"
+---
+
+Setting up my environment:
+
+```{r}
+library(tidyverse)
+```
+
+Using the R's built in mtcars data, let's examine the cylinder count, horsepower, and fuel efficiency of each car.
+
+```{r}
+#Pulling relevant information about cars
+cars <- mtcars |>
+  tibble::rownames_to_column("car") |>
+  select(car, cyl, hp, mpg) |>
+  arrange(cyl)
+
+knitr::kable(cars)
+```
+
+What is the average horsepower and fuel efficiency for each cylinder count?
+
+```{r}
+#Finding average horsepower and fuel efficiency for cars of each cylinder count
+cyl_avg <- cars |>
+  group_by(cyl) |>
+  summarise(
+    avg_hp = mean(hp),
+    avg_mpg = mean(mpg)
+  )
+```
+
+Presenting our findings:
+
+```{r}
+#Knitr table of findings
+knitr::kable(
+  cyl_avg,
+  digits = 1,
+  col.names = c("Cylinders", "Avg. horsepower", "Avg. MPG")
+)
+```
+
+As cylinder count increases, average horsepower increases and average fuel efficiency decreases.

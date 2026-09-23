@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/mtcars_mpg_vs_hp/index.html",
       "/posts/first-weeks/index.html"
     ]
   }
