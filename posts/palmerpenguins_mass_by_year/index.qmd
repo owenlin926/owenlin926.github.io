@@ -1,0 +1,53 @@
+---
+title: "Penguin Body Mass by Year"
+author: Owen Lin
+date: "2026-09-23"
+---
+
+Setting up my environment:
+
+```{python}
+import sys
+print(sys.executable)
+
+
+```
+
+```{python}
+#| message: false
+#| warning: false
+#setup
+from palmerpenguins import load_penguins
+import matplotlib.pyplot as plt
+```
+
+Loading in relevant data:
+```{python}
+#loading in data and pulling columns we need
+
+penguins = load_penguins()
+penguins[["species", "year", "body_mass_g"]].head()
+```
+
+Calculating the average body mass by year for each species:
+
+```{python}
+#Average body mass by year and species
+
+avg_mass_by_year = penguins.groupby(["year", "species"])["body_mass_g"].mean().unstack()
+
+avg_mass_by_year
+```
+
+Plotting our results:
+```{python}
+#| label: fig-penguin-mass-by-year-and-species
+#| fig-cap: "Body mass of penguins by year and species."
+ax = avg_mass_by_year.plot(marker="o")
+ax.set_xlabel("Year")
+ax.set_ylabel("Average body mass (g)")
+ax.set_xticks(avg_mass_by_year.index)
+plt.show()
+```
+
+Our results show that Gentoo penguins are clearly the heaviest species and that the average mass per species has been relatively stable over the three years in the data set.
