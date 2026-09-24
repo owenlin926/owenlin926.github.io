@@ -45,7 +45,7 @@ plt.show()
 
 Our results show that Gentoo penguins are clearly the heaviest species and that the average mass per species has been relatively stable over the three years in the data set.
 
-# Source
+## Source
 
 Data: [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/),
 Palmer Station Antarctica LTER (CC0). Horst, Hill & Gorman (2020),

@@ -202,13 +202,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>Setting up my environment:</p>
-<div id="b2b737e0" class="cell" data-message="false" data-execution_count="1">
+<div id="0e6a8baa" class="cell" data-message="false" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#setup</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> palmerpenguins <span class="im">import</span> load_penguins</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Loading in relevant data:</p>
-<div id="e5fc7ebd" class="cell" data-execution_count="2">
+<div id="f27e4538" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#loading in data and pulling columns we need</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="op">=</span> load_penguins()</span>
@@ -264,7 +264,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>Calculating the average body mass by year for each species:</p>
-<div id="c6862406" class="cell" data-execution_count="3">
+<div id="1f47316a" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Average body mass by year and species</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>avg_mass_by_year <span class="op">=</span> penguins.groupby([<span class="st">"year"</span>, <span class="st">"species"</span>])[<span class="st">"body_mass_g"</span>].mean().unstack()</span>
@@ -335,8 +335,8 @@ Figure&nbsp;1: Body mass of penguins by year and species.
 </div>
 </div>
 <p>Our results show that Gentoo penguins are clearly the heaviest species and that the average mass per species has been relatively stable over the three years in the data set.</p>
-<section id="source" class="level1">
-<h1>Source</h1>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
 <p>Data: <a href="https://allisonhorst.github.io/palmerpenguins/">Palmer Penguins</a>, Palmer Station Antarctica LTER (CC0). Horst, Hill &amp; Gorman (2020), doi:10.5281/zenodo.3960218.</p>
 
 

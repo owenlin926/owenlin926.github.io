@@ -12,7 +12,7 @@ Setting up my environment:
 library(tidyverse)
 ```
 
-Using the R's built in mtcars data, let's examine the cylinder count, horsepower, and fuel efficiency of each car.
+Using R's built in mtcars data, let's examine the cylinder count, horsepower, and fuel efficiency of each car.
 
 ```{r}
 #Pulling relevant information about cars
@@ -50,7 +50,7 @@ knitr::kable(
 
 As cylinder count increases, average horsepower increases and average fuel efficiency decreases.
 
-# Source
+## Source
 
 Data: [mtcars](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html),
 R datasets package (GPL-2 | GPL-3). Originally from Motor Trend US magazine (1974),
