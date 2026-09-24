@@ -49,3 +49,9 @@ knitr::kable(
 ```
 
 As cylinder count increases, average horsepower increases and average fuel efficiency decreases.
+
+# Source
+
+Data: [mtcars](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html),
+R datasets package (GPL-2 | GPL-3). Originally from Motor Trend US magazine (1974),
+via Henderson & Velleman (1981), *Biometrics* 37: 391–411.
