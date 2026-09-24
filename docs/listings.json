@@ -3,6 +3,7 @@
     "listing": "/blog.html",
     "items": [
       "/posts/mtcars_mpg_vs_hp/index.html",
+      "/posts/palmerpenguins_mass_by_year/index.html",
       "/posts/first-weeks/index.html"
     ]
   }

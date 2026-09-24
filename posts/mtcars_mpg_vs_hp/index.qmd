@@ -7,6 +7,8 @@ date: "2026-09-23"
 Setting up my environment:
 
 ```{r}
+#| message: false
+#| warning: false
 library(tidyverse)
 ```
 
@@ -37,7 +39,8 @@ cyl_avg <- cars |>
 Presenting our findings:
 
 ```{r}
-#Knitr table of findings
+#| label: tbl-avg-horsepower-mpg-by-cylinder
+#| fig-cap: "Average horsepower and MPG by cylinder count."
 knitr::kable(
   cyl_avg,
   digits = 1,

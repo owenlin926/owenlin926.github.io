@@ -7,13 +7,6 @@ date: "2026-09-23"
 Setting up my environment:
 
 ```{python}
-import sys
-print(sys.executable)
-
-
-```
-
-```{python}
 #| message: false
 #| warning: false
 #setup
